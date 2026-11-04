@@ -1,0 +1,116 @@
+{
+  "name": "Default Profile (NextDNS docs)",
+  "security": {
+    "threatIntelligenceFeeds": true,
+    "aiThreatDetection": true,
+    "googleSafeBrowsing": true,
+    "cryptojacking": true,
+    "dnsRebinding": true,
+    "idnHomographs": false,
+    "typosquatting": false,
+    "dga": true,
+    "nrd": true,
+    "ddns": true,
+    "parking": true,
+    "csam": true,
+    "tlds": [
+      {
+        "id": "ru"
+      },
+      {
+        "id": "cn"
+      },
+      {
+        "id": "cf"
+      },
+      {
+        "id": "accountants"
+      }
+    ]
+  },
+  "privacy": {
+    "blocklists": [
+      {
+        "id": "nextdns-recommended"
+      },
+      {
+        "id": "oisd"
+      }
+    ],
+    "natives": [
+      {
+        "id": "huawei"
+      },
+      {
+        "id": "samsung"
+      }
+    ],
+    "disguisedTrackers": true,
+    "allowAffiliate": true
+  },
+  "parentalControl": {
+    "services": [
+      {
+        "id": "tiktok",
+        "active": true
+      },
+      {
+        "id": "facebook",
+        "active": false
+      }
+    ],
+    "categories": [
+      {
+        "id": "porn",
+        "active": true
+      },
+      {
+        "id": "social-networks",
+        "active": false
+      }
+    ],
+    "safeSearch": true,
+    "youtubeRestrictedMode": true,
+    "blockBypass": false
+  },
+  "denylist": [
+    {
+      "id": "badwebsite.com",
+      "active": true
+    },
+    {
+      "id": "pornhub.com",
+      "active": false
+    }
+  ],
+  "allowlist": [
+    {
+      "id": "goodwebsite.com",
+      "active": true
+    },
+    {
+      "id": "nytimes.com",
+      "active": false
+    }
+  ],
+  "settings": {
+    "logs": {
+      "enabled": true,
+      "drop": {
+        "ip": false,
+        "domain": false
+      },
+      "retention": 7776000,
+      "location": "eu"
+    },
+    "blockPage": {
+      "enabled": true
+    },
+    "performance": {
+      "ecs": true,
+      "cacheBoost": false,
+      "cnameFlattening": true
+    },
+    "web3": true
+  }
+}

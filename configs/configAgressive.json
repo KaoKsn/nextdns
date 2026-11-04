@@ -1,0 +1,490 @@
+{
+  "name": "Aggressive Profile API",
+  "security": {
+    "threatIntelligenceFeeds": true,
+    "aiThreatDetection": false,
+    "googleSafeBrowsing": true,
+    "cryptojacking": true,
+    "dnsRebinding": true,
+    "idnHomographs": false,
+    "typosquatting": false,
+    "dga": true,
+    "nrd": false,
+    "newlyActiveDomains": false,
+    "freeHostingDomains": false,
+    "ddns": true,
+    "tunnelingEndpoints": false,
+    "dataDropServices": false,
+    "residentialHosting": false,
+    "untrustedCertificates": false,
+    "fastFluxNetworks": false,
+    "dnsDataExfiltration": false,
+    "dnsPayloadDelivery": false,
+    "decentralizedWebGateways": false,
+    "highRiskTlds": false,
+    "parking": true,
+    "csam": true,
+    "tlds": []
+  },
+  "privacy": {
+    "disguisedTrackers": true,
+    "rotatingAdDomains": true,
+    "allowAffiliate": false,
+    "blocklists": [
+      {
+        "id": "nextdns-recommended"
+      },
+      {
+        "id": "adguard-dns-filter"
+      },
+      {
+        "id": "oisd"
+      },
+      {
+        "id": "hagezi-multi-pro-plus"
+      },
+      {
+        "id": "goodbye-ads"
+      }
+    ],
+    "natives": [
+      {
+        "id": "windows"
+      },
+      {
+        "id": "apple"
+      },
+      {
+        "id": "samsung"
+      },
+      {
+        "id": "xiaomi"
+      },
+      {
+        "id": "huawei"
+      },
+      {
+        "id": "alexa"
+      },
+      {
+        "id": "roku"
+      },
+      {
+        "id": "sonos"
+      }
+    ]
+  },
+  "parentalControl": {
+    "safeSearch": false,
+    "youtubeRestrictedMode": false,
+    "blockBypass": false,
+    "services": [
+      {
+        "id": "tiktok",
+        "active": true
+      },
+      {
+        "id": "tinder",
+        "active": true
+      },
+      {
+        "id": "snapchat",
+        "active": true
+      }
+    ],
+    "categories": [
+      {
+        "id": "porn",
+        "active": true
+      },
+      {
+        "id": "gambling",
+        "active": true
+      },
+      {
+        "id": "dating",
+        "active": true
+      }
+    ]
+  },
+  "settings": {
+    "logs": {
+      "enabled": false,
+      "drop": {
+        "ip": false,
+        "domain": false
+      },
+      "retention": 3600,
+      "location": "ch"
+    },
+    "blockPage": {
+      "enabled": true
+    },
+    "performance": {
+      "ecs": true,
+      "cacheBoost": true,
+      "cnameFlattening": false
+    },
+    "bav": true,
+    "web3": false
+  },
+  "denylist": [
+    {
+      "id": "optimizationguide-pa.googleapis.com",
+      "active": true
+    },
+    {
+      "id": "notify.bugsnag.com",
+      "active": true
+    },
+    {
+      "id": "t.appsflyer.com",
+      "active": true
+    },
+    {
+      "id": "track.atom-data.io",
+      "active": true
+    },
+    {
+      "id": "tr.snapchat.com",
+      "active": true
+    },
+    {
+      "id": "trc-events.taboola.com",
+      "active": true
+    },
+    {
+      "id": "us-u.openx.net",
+      "active": true
+    },
+    {
+      "id": "use-tor.adsrvr.org",
+      "active": true
+    },
+    {
+      "id": "trc.taboola.com",
+      "active": true
+    },
+    {
+      "id": "us.criteo.com",
+      "active": true
+    },
+    {
+      "id": "amazon-adsystem.com",
+      "active": true
+    },
+    {
+      "id": "metrics.icould.com",
+      "active": true
+    },
+    {
+      "id": "fls-na.amazon.com",
+      "active": true
+    },
+    {
+      "id": "crashlytics.com",
+      "active": true
+    },
+    {
+      "id": "fbcdn.net",
+      "active": true
+    },
+    {
+      "id": "graph.instagram.com",
+      "active": true
+    },
+    {
+      "id": "firebase.googleapis.com",
+      "active": false
+    },
+    {
+      "id": "doubleclick.net",
+      "active": true
+    },
+    {
+      "id": "firebaseinstallations.googleapis.com",
+      "active": false
+    },
+    {
+      "id": "amplitude.com",
+      "active": true
+    },
+    {
+      "id": "appsflyer.com",
+      "active": true
+    },
+    {
+      "id": "app.adjust.com",
+      "active": true
+    },
+    {
+      "id": "segment.io",
+      "active": true
+    },
+    {
+      "id": "facebook.net",
+      "active": true
+    },
+    {
+      "id": "graph.facebook.com",
+      "active": true
+    },
+    {
+      "id": "unityads.unity3d.com",
+      "active": true
+    },
+    {
+      "id": "us-east-1.amazonaws.com",
+      "active": true
+    },
+    {
+      "id": "ads.undertone.com",
+      "active": true
+    },
+    {
+      "id": "ads.tremorhub.com",
+      "active": true
+    },
+    {
+      "id": "ads.stickyadstv.com",
+      "active": true
+    },
+    {
+      "id": "ads.pubmatic.com",
+      "active": true
+    },
+    {
+      "id": "ads.nexage.com",
+      "active": true
+    },
+    {
+      "id": "ads.mopub.com",
+      "active": true
+    },
+    {
+      "id": "ads.linkedin.com",
+      "active": true
+    },
+    {
+      "id": "ads.inmobi.com",
+      "active": true
+    },
+    {
+      "id": "ads.avct.cloud",
+      "active": true
+    },
+    {
+      "id": "ads-bidder-api.twitter.com",
+      "active": true
+    },
+    {
+      "id": "adrta.com",
+      "active": true
+    },
+    {
+      "id": "adexp.liftoff.io",
+      "active": true
+    },
+    {
+      "id": "adc3-launch.adcolony.com",
+      "active": true
+    },
+    {
+      "id": "ad.turn.com",
+      "active": true
+    },
+    {
+      "id": "ad.smaato.net",
+      "active": true
+    },
+    {
+      "id": "ad.doubleclick.net",
+      "active": true
+    },
+    {
+      "id": "acdn.adnxs.com",
+      "active": true
+    },
+    {
+      "id": "aax.amazon-adsystem.com",
+      "active": true
+    },
+    {
+      "id": "aax-us-east.amazon-adsystem.com",
+      "active": true
+    },
+    {
+      "id": "aax-eu.amazon-adsystem.com",
+      "active": true
+    },
+    {
+      "id": "aa.agkn.com",
+      "active": true
+    },
+    {
+      "id": "a.tribalfusion.com",
+      "active": true
+    },
+    {
+      "id": "a.applovin.com",
+      "active": true
+    },
+    {
+      "id": "15.taboola.com",
+      "active": true
+    },
+    {
+      "id": "api.mapbox.com",
+      "active": true
+    },
+    {
+      "id": "api.kochava.com",
+      "active": true
+    },
+    {
+      "id": "api.iterable.com",
+      "active": true
+    },
+    {
+      "id": "api.gameanalytics.com",
+      "active": true
+    },
+    {
+      "id": "api.branch.io",
+      "active": true
+    },
+    {
+      "id": "api.apptentive.com",
+      "active": true
+    },
+    {
+      "id": "api.amplitude.com",
+      "active": true
+    },
+    {
+      "id": "ap.lijit.com",
+      "active": true
+    },
+    {
+      "id": "ag.innovid.com",
+      "active": true
+    },
+    {
+      "id": "adservice.google.com",
+      "active": true
+    },
+    {
+      "id": "ads.yieldmo.com",
+      "active": true
+    },
+    {
+      "id": "ads.yahoo.com",
+      "active": true
+    },
+    {
+      "id": "api.revenuecat.com",
+      "active": true
+    },
+    {
+      "id": "api.permutive.com",
+      "active": true
+    },
+    {
+      "id": "api.onesignal.com",
+      "active": true
+    },
+    {
+      "id": "api.mixpanel.com",
+      "active": true
+    },
+    {
+      "id": "alb.reddit.com",
+      "active": true
+    },
+    {
+      "id": "androidads4-5.adcolony.com",
+      "active": true
+    },
+    {
+      "id": "analytics.yahoo.com",
+      "active": true
+    },
+    {
+      "id": "analytics.twitter.com",
+      "active": true
+    },
+    {
+      "id": "analytics.tiktok.com",
+      "active": true
+    },
+    {
+      "id": "analytics.rayjump.com",
+      "active": true
+    },
+    {
+      "id": "analytics.google.com",
+      "active": true
+    },
+    {
+      "id": "usermatch.krxd.net",
+      "active": true
+    },
+    {
+      "id": "www.google-analytics.com",
+      "active": true
+    },
+    {
+      "id": "vidstat.taboola.com",
+      "active": true
+    },
+    {
+      "id": "view.adjust.com",
+      "active": true
+    },
+    {
+      "id": "web.facebook.com",
+      "active": true
+    },
+    {
+      "id": "wf.taboola.com",
+      "active": true
+    },
+    {
+      "id": "wins.isprog.com",
+      "active": true
+    },
+    {
+      "id": "ws.tapjoyads.com",
+      "active": true
+    },
+    {
+      "id": "wv.inner-active.mobi",
+      "active": true
+    },
+    {
+      "id": "www.googleadservices.com",
+      "active": true
+    },
+    {
+      "id": "www.googletagmanager.com",
+      "active": true
+    },
+    {
+      "id": "www.googletagservices.com",
+      "active": true
+    },
+    {
+      "id": "zombie.duolingo.com",
+      "active": true
+    },
+    {
+      "id": "routergtest14.oneplus.com",
+      "active": true
+    },
+    {
+      "id": "memberapi.oneplus.in",
+      "active": true
+    }
+  ],
+  "allowlist": []
+}
